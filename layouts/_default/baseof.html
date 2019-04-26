@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+    <title>{{ .Site.Title }}</title>
+    {{ .Hugo.Generator }}    
+  </head>
+  <body>
+    {{ partial "site-navigation.html" . }}        
+    <main class="pb7" role="main">
+      {{ block "main" . }}{{ end }}
+    </main>    
+  </body>
+</html>
