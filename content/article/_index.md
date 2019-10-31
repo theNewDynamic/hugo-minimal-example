@@ -1,6 +1,5 @@
 ---
 title: "Blog"
-menu:
-  main:
+menu: main
 
 ---
